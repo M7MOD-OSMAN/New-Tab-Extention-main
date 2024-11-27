@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 60px #242424;
+}
+.icons {
+  text-shadow: 5px 5px 10px #242424;
+  margin-bottom: 0;
+}
+main {
+  padding: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+@font-face {
+  font-family: "003 Katie Caps";
+  src: url("./003\ Katie\ Caps.ttf") format("truetype");
+}
+h1.time {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Josefin Sans";
+}
+.weather-temp,
+#crypto > p {
+  font-family: "Josefin Sans";
+  padding: 0;
+  margin: 0;
+}
+div#crypto {
+  font-size: 1.3rem;
+}
+
+div#crypto > p {
+  margin: 0;
+}
+
+div#crypto-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+#jokes {
+  width: 1000px;
+  height: 149px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 20px 8px #6b8387;
+  border-radius: 10px;
+}
+.jokesCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jokesCont h4 {
+  font-style: italic;
+}
+.jokesCont h2 {
+  border-bottom: 3px solid #fff;
+}
+div#crypto-top > span {
+  margin-left: 10px;
+}
+
+div#weather {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-self: flex-start;
+  margin-top: -20px;
+}
+
+div#weather > img {
+  width: 70px;
+}
+
+p.weather-city {
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  margin-top: -10px;
+  font-size: 1.3rem;
+}
+
+p.weather-temp {
+  margin: 0;
+  font-size: 1.7rem;
+  margin-left: -10px;
+}
+
+p#author {
+  font-size: 1rem;
+  text-align: left;
+}
+
+#quran h3 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.7;
+  font-family: "Readex Pro";
+}
+#hadeeth,
+#hadeeth-exp {
+  background-color: rgba(53, 73, 73, 0.265);
+  padding: 20px 0;
+  font-size: 1rem;
+  font-family: "Readex Pro";
+  border-radius: 12px;
+}
+center h4,
+center p {
+  text-decoration: underline;
+}
+
+#hadeeth span {
+  color: rgb(5, 205, 5);
+}
+#hadeeth h5 {
+  font-family: "Readex Pro";
+}
+.backup {
+  background-image: url(./backup.jpg);
+}
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  fill: cornflowerblue !important;
+}
+
+.deen {
+  -moz-box-shadow: 3px 3px 15px 21px rgba(51, 44, 51, 0.25);
+  box-shadow: 3px 3px 15px 21px rgba(51, 44, 51, 0.25);
+  border-radius: 10px;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 20px 8px #6b8387;
+  box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 20px 8px #6b8387;
+}
+.quran {
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+#quran {
+  border-radius: 12px;
+}
+ul li {
+  list-style: none;
+  font-family: "Readex Pro";
+}
+
+#words-meanings-list {
+  margin: 0 auto;
+  width: auto;
+}
+
+.word-meaning-list {
+  list-style: none;
+  padding: 0;
+}
+
+.word-meaning-item {
+  margin-bottom: 10px;
+  width: auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.word-meaning-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  color: #f9f9f9;
+}
+
+center h3 {
+  font-family: "Readex Pro";
+}
